@@ -6,12 +6,12 @@ import org.springframework.stereotype.Repository;
  * Created By dhhaval thakkar on 2024-01-24
  */
 @Repository
-public class DataService1 {
+public class DataService2 {
 
     public int[] retrieveData() throws InterruptedException {
 
         Thread.sleep(30);
 
-        return new int[] {11, 22, 33, 44, 55, 66};
+        return new int[] {111, 222, 333, 444, 555, 666};
     }
 }
